@@ -1,0 +1,3 @@
+from employee_profile.models.basic_information import BasicInformation
+from employee_profile.models.contact_information import ContactInformation
+from employee_profile.models.employment_information import EmploymentInformation

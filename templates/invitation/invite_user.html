@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport'
+          content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Email Verification</title>
+</head>
+<body>
+<h3>Hi, {{ first_name }}</h3>
+<p>Your Organisation <b>{{ organisation_name }}</b> has invited you to Emetricsuite</p>
+<p>Please follow the link below to complete setup for your account</p>
+<a href="{{ setup_path }}">Setup Account</a>
+<p>Your login link is at</p>
+<a href="{{ client_login_link }}">Login</a>
+<p>Your organisation name during login is <b>{{ organisation_short_name }}</b></p>
+<br>
+<p>If you have any questions, please contact us at <a href="mailto:activation@emetricsuite.com">activation@emetricsuite.com</a></p>
+</body>
+</html>
